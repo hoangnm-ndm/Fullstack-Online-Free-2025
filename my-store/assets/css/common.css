@@ -5,6 +5,8 @@
 html {
 	font-family: "Montserrat", serif;
 	font-size: 62.5%;
+	font-weight: 400;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -12,7 +14,28 @@ body {
 	font-size: 1.6rem;
 }
 
-.box {
-	background-color: yellow;
-	border: 2px dotted red;
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: aqua;
+}
+
+strong {
+	font-weight: 800;
+}
+
+.mt-100 {
+	margin-bottom: 100px;
 }
