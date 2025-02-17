@@ -77,6 +77,32 @@ input:last-of-type {
 	margin-bottom: 48px;
 }
 
+.hr-container {
+	display: flex;
+	align-items: center;
+}
+
+.hr-container hr {
+	flex: 1; /* Đường ngang co giãn theo chiều ngang */
+	margin-left: 10px; /* Khoảng cách với text */
+	border: none;
+	height: 1px;
+	background-color: black;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-between;
+	margin: 46px auto;
+}
+
+.icon {
+	padding: 12px 28px;
+	background-color: #f7f7f7;
+	border-radius: 4px;
+	display: inline-block;
+}
+
 form button {
 	padding: 20px;
 	text-align: center;
